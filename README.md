@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset  ="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>The Road</title>
-	<style>*{
+	<style>
+	*{
 	margin:0;
 	padding:0;
 	font-family: sans-serif;
@@ -32,8 +28,9 @@ html{
 
 
 .container{
+        margin:0;
+        padding:0;
 	background-color:var(--secondary-color);
-	margin:3.5rem;
 	box-shadow:0 1rem 3rem var(--grey-coor);
 	overflow: hidden;
 	padding: 20px;
@@ -694,7 +691,6 @@ margin-left:10px;
 </style>
 </head>
 <body>
-<div class="container">
 	<div class="o-n-i n-i center">
 		<div class="line"></div>
 		<div class="line"></div>
@@ -873,7 +869,7 @@ margin-left:10px;
 			<p class="ft-p">Copyright &copy; CodeAndCreate All Rights Reserved </p>
 		</div>
 	</footer>
-</div>
+
 <script>
 	const container=document.querySelector(".container")
 document.querySelector(".o-n-i").addEventListener("click",()=>{
