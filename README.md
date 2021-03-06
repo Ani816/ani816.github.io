@@ -3,6 +3,10 @@
 <head>
 	<meta charset  ="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>The Road</title>
+
+</head>
+<body>
 <div class="o-n-i n-i center">
 		<div class="line"></div>
 		<div class="line"></div>
